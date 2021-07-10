@@ -1,0 +1,506 @@
+        .highradius {
+            top: 1.375rem;
+            left: 52.688rem;
+            width: 14.688rem;
+            height: 3.125rem;
+            text-align: center;
+            padding-left: 28%;
+        }
+
+        .ABC {
+            width: 18.063rem;
+            height: 3.25rem;
+            top: 1rem;
+            left: 1.875rem;
+        }
+
+
+        h2 {
+            color: #FFFFFF;
+            font-family: Verdana;
+            font-weight: 300;
+            display: inline;
+            font-size: 150%;
+
+        }
+
+        section {
+            background-color: #273D49CC;
+        }
+
+        th {
+            color: #97A1A9;
+            font-size: smaller;
+            font-weight: 500;
+            font-family: Verdana;
+            padding-top: 0.625rem;
+            padding-bottom: 0.625rem;
+        }
+
+        td {
+            text-align: center;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: smaller;
+            font-family: Verdana;
+            padding-top: 0.625rem;
+            padding-bottom: 0.625rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: #283A46;
+        }
+
+        table {
+            border: 1px;
+            border-radius: 10px;
+        }
+
+        section {
+            background-color: #273D49CC;
+            border-radius: 5px;
+        }
+
+        .add {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            text-decoration: none;
+            font-family: Verdana;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .edit {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            font-family: Verdana;
+            text-decoration: none;
+            padding: 0.25rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+
+        }
+
+        .delete {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            text-decoration: none;
+            font-family: Verdana;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .buttons {
+            position: relative;
+            left: 67%;
+        }
+
+        #search {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #search-tab {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+
+        }
+
+        .popup {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup2 {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup3 {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup-content {
+            height: 31.938rem;
+            width: 33.938;
+            background-color: #273D49CC;
+            padding: 1.25rem;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .popup-content2 {
+            height: 31.813rem;
+            width: 69.125rem;
+            background-color: #273D49CC;
+            padding: 1.25rem;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .popup-content3 {
+            height: 21.375rem;
+            width: 38.188rem;
+            background-color: #273D49CC;
+            padding: 1.25rem;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        label {
+            color: #97A1A9;
+            font-family: Verdana;
+            padding: 1.25rem;
+        }
+
+        .all_inputs {
+            width: 18.75rem;
+            height: 1.25rem;
+            color: white;
+            font-family: Verdana;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+
+        }
+
+        .Notes {
+            height: 11.938rem;
+            width: 18.75rem;
+            color: white;
+            font-family: Verdana;
+            text-align: left;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: absolute;
+            right: 4%;
+        }
+
+        .space {
+            margin-top: 13.75rem;
+        }
+
+        .cancel {
+            color: #14AFF1;
+            background-color: transparent;
+            border: none;
+            font-family: Verdana;
+            position: relative;
+            right: -10%;
+            cursor: pointer;
+        }
+
+        .reset {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            font-family: Verdana;
+            color: white;
+            padding: 0.5rem 0.938rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            right: -50%;
+        }
+
+        .save {
+            background-color: #14AFF1;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            font-family: Verdana;
+            border-radius: 5px;
+            color: white;
+            padding: 0.5rem 0.938rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            right: -53%;
+        }
+
+        .close {
+            position: absolute;
+            top: 1.563rem;
+            right: 1.563rem;
+            cursor: pointer;
+        }
+
+        .close2 {
+            position: absolute;
+            top: 1.563rem;
+            right: 1.563rem;
+            cursor: pointer;
+        }
+
+        .close3 {
+            position: absolute;
+            top: 1.563rem;
+            right: 1.563rem;
+            cursor: pointer;
+        }
+
+        .star {
+            color: #FF5B5B;
+        }
+
+        .cust_no {
+            width: 18.75rem;
+            height: 1.25rem;
+            color: white;
+            font-family: Verdana;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: relative;
+            right: -1.8%;
+        }
+
+        .Inv_no {
+            width: 18.75rem;
+            height: 1.25rem;
+            color: white;
+            font-family: Verdana;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: relative;
+            right: -3.6%;
+        }
+
+        .Inv_amt {
+            width: 18.75rem;
+            height: 1.25rem;
+            color: white;
+            font-family: Verdana;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: relative;
+            right: -0.5%;
+        }
+
+        .Due_date {
+            position: relative;
+            right: -7%;
+        }
+
+        .Due_date_input {
+            width: 18.75rem;
+            height: 1.25rem;
+            color: white;
+            font-family: Verdana;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: relative;
+            right: -7%;
+        }
+
+        .add_notes {
+            position: relative;
+            right: -8.5%;
+        }
+
+        .add_notes2 {
+            height: 11.938rem;
+            width: 18.75rem;
+            color: white;
+            font-family: Verdana;
+            text-align: left;
+            background-color: #283A46;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #14AFF1;
+            padding: 0.438rem;
+            position: absolute;
+            right: 7.7%;
+        }
+
+        .cancel2 {
+            color: #14AFF1;
+            background-color: transparent;
+            border: none;
+            font-family: Verdana;
+            position: relative;
+            left: 6%;
+            top: -3%;
+            cursor: pointer;
+        }
+
+        .add2 {
+            background-color: #14AFF1;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 5px;
+            color: white;
+            font-family: Verdana;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            left: 90%;
+            top: -3%;
+        }
+
+        .clear {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            color: #97A1A9;
+            padding: 0.313rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            top: -3.5%;
+            left: 78%;
+        }
+
+        .checks {
+            position: absolute;
+            left: 3%;
+            background-color: transparent;
+        }
+
+        p {
+            color: #C0C6CA;
+            font-size: 1.25rem;
+            font-family: Verdana;
+        }
+
+        .text_color {
+            color: #FF5B5B;
+        }
+
+        .delete2 {
+            background-color: #14AFF1;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            font-family: Verdana;
+            border-radius: 5px;
+            color: white;
+            padding: 0.5rem 0.938rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            left: 75%;
+        }
+
+        .cancel3 {
+            background-color: #273D49CC;
+            border: 1px;
+            border-color: #14AFF1;
+            border-style: solid;
+            border-radius: 5px;
+            color: white;
+            padding: 0.5rem 0.625rem;
+            text-align: center;
+            font-size: 1rem;
+            cursor: pointer;
+            position: relative;
+            left: 72%;
+        }
+
+        .previous {
+            font-size: 1.875rem;
+            border: 1px;
+            background-color: #39495E;
+            color: #97A1A8;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 1%;
+        }
+
+        .next {
+            font-size: 1.875rem;
+            border: 1px;
+            background-color: #39495E;
+            color: #97A1A8;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            right: 1%;
+        }
+   

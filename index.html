@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Invoice Details</title>
+</head>
+
+<body style="background-color: #58687E;">
+    <header>
+        <span class="ABC">
+            <img src="assets\abc.svg" alt="ABC" style="width:15%;">
+        </span>
+        <span class="highradius">
+            <img src="assets\highradius.svg" alt="HighRadius" style="width:12%;">
+        </span>
+    </header>
+    <br>
+    <h2>Invoice List</h2>
+    <br>
+    <br>
+    <section style="padding-top: 0.938rem; padding-bottom: 2.5rem;">
+        <span class="buttons">
+            <button class="add" id="add">+ Add</button>
+            <button class="edit" id="edit">Edit</button>
+            <button class="delete" id="delete">--Delete</button>
+
+            <span class=search-bar>
+                <form action=" " style="display: inline;">
+                    <input id="search-tab" type="text" placeholder="Search by Invoice Number" name="search">
+                    <button id="search" type="submit" style="padding-right: 0.938rem;">
+                        <i class="fa fa-search"></i></button>
+                </form>
+            </span>
+        </span>
+
+        <table style="width:100%;" id="table">
+            <tr>
+                <th><input type="checkbox" class="checks" name="colname" />&nbsp;Customer Name</th>
+                <th>Customer #</th>
+                <th>Invoice #</th>
+                <th>Invoice Amount</th>
+                <th>Due Date</th>
+                <th>Predicted Payment Date</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r1" />&nbsp;AT Corp</td>
+                <td>3202</td>
+                <td>65871</td>
+                <td>10,000.00</td>
+                <td>23-Jan-2020</td>
+                <td>25-Jan-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r2" />&nbsp;LMT InfoTech</td>
+                <td>7538</td>
+                <td>75215</td>
+                <td>4,899.00</td>
+                <td>24-May-2020</td>
+                <td>29-May-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r3" />&nbsp;BSE Enterprise</td>
+                <td>7411</td>
+                <td>66945</td>
+                <td>65,350.00</td>
+                <td>15-Mar-2020</td>
+                <td>29-Mar-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r4" />&nbsp;SSG Agencies</td>
+                <td>3987</td>
+                <td>22746</td>
+                <td>1,250.00</td>
+                <td>19-Jun-2020</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r5" />&nbsp;AL Traders</td>
+                <td>1455</td>
+                <td>22893</td>
+                <td>10,000.00</td>
+                <td>08-Jan-2020</td>
+                <td>12-Feb-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r6" />&nbsp;Ford</td>
+                <td>9954</td>
+                <td>11783</td>
+                <td>7,500.00</td>
+                <td>07-Jan-2021</td>
+                <td>15-Feb-2021</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r7" />&nbsp;MK Enterprise</td>
+                <td>3699</td>
+                <td>88155</td>
+                <td>4,555.00</td>
+                <td>02-Jun-2020</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r8" />&nbsp;Green Traders</td>
+                <td>4484</td>
+                <td>43994</td>
+                <td>39,000.00</td>
+                <td>23-Apr-2021</td>
+                <td>23-Apr-2021</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r9" />&nbsp;M&M</td>
+                <td>2877</td>
+                <td>33874</td>
+                <td>15,000.00</td>
+                <td>05-May-2020</td>
+                <td>30-May-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r10" />&nbsp;NL Distributors</td>
+                <td>9179</td>
+                <td>77144</td>
+                <td>33,252.00</td>
+                <td>31-May-2019</td>
+                <td>--</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r11" />&nbsp;Walmart</td>
+                <td>3667</td>
+                <td>74599</td>
+                <td>17,356.00</td>
+                <td>02-Feb-2020</td>
+                <td>19-Feb-2020</td>
+                <td>--</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="checks" name="r12" />&nbsp;RR Agencies</td>
+                <td>8610</td>
+                <td>96355</td>
+                <td>19,121.00</td>
+                <td>15-Nov-2020</td>
+                <td>03-Jan-2021</td>
+                <td>--</td>
+            </tr>
+
+        </table>
+
+    </section>
+    <div class="popup">
+        <div class="popup-content">
+            <img src="C:\Users\karth\OneDrive\Desktop\High Radius\Html_CSS\assets\close.svg" alt="close" class="close">
+            <h2 style="padding: 1.875rem;">Edit Invoice</h2>
+            <br>
+            <br>
+            <hr style="border: black; border-style: solid; border-width: 1px;">
+            <br>
+            <br>
+            <form action="">
+                <label for="InvAmt">Invoice Amount</label>
+                <input type="text" class="all_inputs" name="InvAmt">
+                <br>
+                <br>
+                <br>
+                <label for="Notes">Notes</label>
+                <input type="text" class="Notes" name="Notes">
+            </form>
+            <div class="space"></div>
+            <hr style="border: black; border-style: solid; border-width: 1px; position: relative;">
+            <br>
+            <br>
+            <button class="cancel" type="submit">Cancel</button>
+            <button class="reset" type="submit">Reset</button>
+            <button class="save" type="submit">Save</button>
+        </div>
+    </div>
+
+    <div class="popup2">
+        <div class="popup-content2">
+            <img src="C:\Users\karth\OneDrive\Desktop\High Radius\Html_CSS\assets\close.svg" alt="close2"
+                class="close2">
+            <h2 style="padding: 1.875rem;">Add Invoice</h2>
+            <br>
+            <br>
+            <hr style="border: black; border-style: solid; border-width: 1px;">
+            <br>
+            <br>
+            <form action="">
+                <label for="cust_name">Customer Name <span class="star">*</span></label>
+                <input type="text" class="all_inputs" name="cust_name" id="cust_name">
+
+                <label for="Due_date" class="Due_date">Due Date <span class="star">*</span></label>
+                <input type="date" class="Due_date_input" name="Due_date" id="Due_date">
+
+                <br>
+                <br>
+                <br>
+                <label for="cust_no">Customer No. <span class="star">*</span></label>
+                <input type="text" class="cust_no" name="cust_no" id="cust_no">
+                <label for="Notes" class="add_notes">Notes</label>
+                <input type="text" class="add_notes2" name="Notes" id="Notes">
+                <br>
+                <br>
+                <br>
+                <label for="Inv_no">Invoice No. <span class="star">*</span></label>
+                <input type="text" class="Inv_no" name="Inv_no" id="Inv_no">
+                <br>
+                <br>
+                <br>
+                <label for="Inv_amt">Invoice Amount <span class="star">*</span></label>
+                <input type="text" class="Inv_amt" name="Inv_amt" id="Inv_amt">
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr style="border: black; border-style: solid; border-width: 1px; position: relative;">
+                <br>
+                <br>
+                <button class="cancel2" type="submit">Cancel</button>
+                <button class="add2" type="submit">Add</button>
+                <button class="clear" type="submit">Clear</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="popup3">
+        <div class="popup-content3">
+            <img src="C:\Users\karth\OneDrive\Desktop\High Radius\Html_CSS\assets\close.svg" alt="close" class="close3">
+            <h2 style="padding: 1.875rem;">Delete record(s)?</h2>
+            <br>
+            <br>
+            <hr style="border: black; border-style: solid; border-width: 1px;">
+            <p>You'll lose your record(s) after this action. We can't recover <br> them once you delete it.</p>
+            <br>
+            <p>Are you sure you want to <span class="text_color">permanently delete</span> them?</p>
+            <hr style="border: black; border-style: solid; border-width: 1px; position: relative;">
+            <br>
+            <br>
+            <button class="cancel3" type="submit">Cancel</button>
+            <button class="delete2" type="submit">Delete</button>
+        </div>
+    </div>
+
+    <Button type="submit" class="previous" id="previous">&#8249;</Button>
+    <Button type="submit" class="next" id="next">&#8250;</Button>
+
+    <script>
+        document.getElementById("edit").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "flex";
+        })
+
+        document.querySelector(".close").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        })
+        document.querySelector(".cancel").addEventListener("click", function () {
+            document.querySelector(".popup").style.display = "none";
+        })
+        document.getElementById("add").addEventListener("click", function () {
+            document.querySelector(".popup2").style.display = "flex";
+        })
+        document.querySelector(".close2").addEventListener("click", function () {
+            document.querySelector(".popup2").style.display = "none";
+        })
+        document.querySelector(".cancel2").addEventListener("click", function () {
+            document.querySelector(".popup2").style.display = "none";
+        })
+        document.getElementById("delete").addEventListener("click", function () {
+            document.querySelector(".popup3").style.display = "flex";
+        })
+        document.querySelector(".close3").addEventListener("click", function () {
+            document.querySelector(".popup3").style.display = "none";
+        })
+        document.querySelector(".cancel3").addEventListener("click", function () {
+            document.querySelector(".popup3").style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
