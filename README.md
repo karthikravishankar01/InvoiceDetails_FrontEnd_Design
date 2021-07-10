@@ -6,3 +6,5 @@ An Invoice Details Front End was designed using HTML, CSS and JavaScript.
 ![Edit](https://user-images.githubusercontent.com/73868221/125155496-fc995180-e17d-11eb-9f5d-52af56cd9235.png)
 
 ![Del](https://user-images.githubusercontent.com/73868221/125155509-10dd4e80-e17e-11eb-9684-ee23814467fa.png)
+
+![Add](https://user-images.githubusercontent.com/73868221/125155523-2783a580-e17e-11eb-8cb2-bcc48d8fdf81.png)
